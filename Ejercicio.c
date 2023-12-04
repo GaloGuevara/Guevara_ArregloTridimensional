@@ -35,7 +35,7 @@ int main(int argc, char const *argv[])
         {
             for (int k = 0; k < l; k++)
             {
-                if (k == l - 1)
+                if (i == n - 1)
                 {
                     ArregloTridimensional[i][j][k] = 1;
                 }
@@ -52,9 +52,9 @@ int main(int argc, char const *argv[])
             {
                 printf("%d\t", ArregloTridimensional[i][j][k]);
             }
-            puts("\n");
+            printf("\n");
         }
-        puts("\n");
+        printf("\n");
     }
 
     return 0;
